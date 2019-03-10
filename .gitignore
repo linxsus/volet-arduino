@@ -1,0 +1,7 @@
+/build/
+
+*.prefs
+
+\.project
+
+\.cproject
