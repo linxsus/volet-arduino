@@ -1,7 +1,17 @@
-/build/
+
 
 *.prefs
 
 \.project
 
 \.cproject
+
+build/\.default/Makefile
+
+build/\.default/core/
+
+build/\.default/project/
+
+build/\.default/-\.d
+
+build/\.default/core\.a
