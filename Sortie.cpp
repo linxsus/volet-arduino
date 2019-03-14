@@ -41,7 +41,7 @@ void Sortie::ecritureSortie()
 		        digitalWrite(2+i*8+j, !!(relais_sortie[(byte)i] & (1 << j)));
 		      }
     }
-	delay(100);
+	//delay(100);
 	// on envoie un message pour dir que l'on vien d'ecrire sur les sorties (debug)
 	com->println(MSG_ECRITURE_SORTIE);
 }

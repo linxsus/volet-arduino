@@ -15,3 +15,4 @@ build/\.default/project/
 build/\.default/-\.d
 
 build/\.default/core\.a
+/build/
