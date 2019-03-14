@@ -2,7 +2,7 @@
  * entree.cpp
  *
  *  Created on: 22 août 2018
- *      Author: phenom
+ *      Author: xavier
  */
 
 
@@ -52,7 +52,7 @@ void Entree:: lectureEntree()
 // !!! si il y a plusieurs modif en meme temps. il faut de nouveau executer la fonction.
 int Entree::testEntreeActive() {
 	// init des valeurs
-	int8_t valeur = 0, // valeur a retourner (1 = entree 1 activer, -1 = entree 1 desactiver) les entree commance a 1
+	int valeur = 0, // valeur a retourner (1 = entree 1 activer, -1 = entree 1 desactiver) les entree commance a 1
 			t=0, // valeur temporaire du 74hc595 traite
 			dif=0; // calcul pour savoir si le bit a ete activer=1,desactiver=-1,non changer=0
 
