@@ -7,7 +7,6 @@
 GestionVolet* volet;
 bool reset=false;
 
-
 void setup()
 {
 	volet=new GestionVolet;
