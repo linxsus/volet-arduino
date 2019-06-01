@@ -17,11 +17,9 @@ extern Sortie* sortie;
 GestionLed::GestionLed():GestionVolet() {
 	delete(sortie);
 	sortie=new Led;
-	// TODO Auto-generated constructor stub
 
 }
 
 GestionLed::~GestionLed() {
-	// TODO Auto-generated destructor stub
 }
 

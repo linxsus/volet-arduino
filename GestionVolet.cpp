@@ -60,10 +60,7 @@ void GestionVolet::run()
 {
 	modifInter=entree->entreeActive(); // on recupere si il y a eu une modif sur les entree
 	if (modifInter!=0){ // si il a eu une modif
-
-		// TODO
 		//remetre a jour tout les relais
-
 		if (modifInter>0){ // si c'est une entree que l'on vien d'activer
 			sortie->activer(EEPROM.read(ADD_MIN_ES+modifInter-1));
 		}else //sinon c'est un une entree que l'on vien de desactiver

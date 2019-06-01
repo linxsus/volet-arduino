@@ -16,7 +16,6 @@ Led::Led():Sortie() {
 }
 
 Led::~Led() {
-	// TODO Auto-generated destructor stub
 }
 
 void Led::activer(byte relais) {
